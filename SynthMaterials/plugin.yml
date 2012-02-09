@@ -1,0 +1,6 @@
+name: SynthMaterials
+version:  Beta 3
+author: Owexz
+description: More ways to get rare Vanilla items & blocks!
+main: net.owexz.synthmaterials.SynthMaterials
+depend: [Spout]
