@@ -81,11 +81,9 @@ public class SynthMaterials extends JavaPlugin
         recipe6.setIngredient('A', MaterialData.ironIngot);
         recipe6.setIngredient('B', MaterialData.goldNugget);
         SpoutManager.getMaterialManager().registerSpoutRecipe(recipe6);
-        SpoutShapedRecipe recipe7= new SpoutShapedRecipe(new SpoutItemStack(MaterialData.netherWart, 1));
-        recipe7.shape("AAA", "ABA", "ACA");
-        recipe7.setIngredient('A', MaterialData.redstone);
-        recipe7.setIngredient('B', MaterialData.redMushroom);
-        recipe7.setIngredient('C', MaterialData.brownMushroom);
+        SpoutShapelessRecipe recipe7= new SpoutShapelessRecipe(new SpoutItemStack(MaterialData.netherWart, 1));
+        recipe7.addIngredient(MaterialData.rottenFlesh);
+        recipe7.addIngredient(MaterialData.redMushroom);
         SpoutManager.getMaterialManager().registerSpoutRecipe(recipe7);
         SpoutShapedRecipe recipe8= new SpoutShapedRecipe(new SpoutItemStack(MaterialData.gunpowder, 1));
         recipe8.shape(" A ", "AAA", " A ");
