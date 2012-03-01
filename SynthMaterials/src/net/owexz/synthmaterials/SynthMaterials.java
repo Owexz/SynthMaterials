@@ -223,6 +223,12 @@ public class SynthMaterials extends JavaPlugin
         recipe33.setIngredient('B', Material.EGG);
         recipe33.setIngredient('C', Material.RAW_FISH);
         Bukkit.getServer().addRecipe(recipe33);
+        ShapedRecipe recipe38 = new ShapedRecipe(new ItemStack(Material.MONSTER_EGG, 1, (short)99));
+        recipe38.shape(" A ", "CBC", "C C");
+        recipe38.setIngredient('A', Material.PUMPKIN);
+        recipe38.setIngredient('B', Material.EGG);
+        recipe38.setIngredient('C', Material.IRON_BLOCK);
+        Bukkit.getServer().addRecipe(recipe38);
         ShapedRecipe recipe34 = new ShapedRecipe(new ItemStack(Material.MONSTER_EGG, 1, (short)200));
         recipe34.shape("AAA", "ABA", "ACA");
         recipe34.setIngredient('A', Material.GLASS);
